@@ -1,0 +1,14 @@
+{
+  "name": "smart-recon",
+  "version": "1.0.0",
+  "description": "Smart Recon — Automated Invoice Reconciliation System",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "test": "node server/scripts/test-workflows.js",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": ["invoice-reconciliation", "fintech", "accounts-payable", "smart-recon"]
+}

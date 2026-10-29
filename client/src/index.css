@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0B0F19] text-slate-100 font-sans;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F293D;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Glass & Neon Accents */
+.glass-panel {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, rgba(22, 31, 51, 0.9) 0%, rgba(17, 24, 39, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.badge-matched {
+  @apply bg-emerald-500/15 text-emerald-400 border border-emerald-500/30;
+}
+
+.badge-partial {
+  @apply bg-amber-500/15 text-amber-400 border border-amber-500/30;
+}
+
+.badge-mismatch {
+  @apply bg-red-500/15 text-red-400 border border-red-500/30;
+}
+
+.badge-review {
+  @apply bg-purple-500/15 text-purple-400 border border-purple-500/30;
+}
+
+.badge-corrupt {
+  @apply bg-pink-500/15 text-pink-400 border border-pink-500/30;
+}

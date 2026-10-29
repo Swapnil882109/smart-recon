@@ -1,0 +1,6 @@
+Order_Ref,Vendor_Name,Issue_Date,Product_Name,Ordered_Qty,Rate_Per_Unit,Line_Total,Status
+ORD-88412,Volt-Tech Electricals,2026-10-14,Industrial Heavy Stabilizer 10kVA,2,450.00,900.00,Verified
+ORD-88412,Volt-Tech Electricals,2026-10-14,Commercial Ceiling Fan 56",10,65.00,650.00,Verified
+ORD-88412,Volt-Tech Electricals,2026-10-14,Modular Circuit Breaker Panel 12-Way,4,120.00,480.00,Verified
+ORD-55420,Nova Steel Solutions,2026-10-18,Galvanized Conduit Piping 2",50,18.50,925.00,Verified
+ORD-33910,BioHealth MedTech,2026-10-20,Digital Sterilization Autoclave,1,3400.00,3400.00,Verified
